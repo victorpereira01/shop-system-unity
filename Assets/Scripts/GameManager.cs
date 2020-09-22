@@ -26,8 +26,11 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            this.coins -= 50;
-            SaveAndUpdate(this.coins);
+            if (this.coins > 0)
+            {
+                this.coins -= 50;
+                SaveAndUpdate(this.coins);
+            }
         }
     }
 
@@ -37,7 +40,8 @@ public class GameManager : MonoBehaviour
         this.coinsText.text = coins.ToString();
     }
 
-    public void NavigateTo(string sceneName) {
+    public void NavigateTo(string sceneName)
+    {
         SceneManager.LoadScene(sceneName);
     }
 }
