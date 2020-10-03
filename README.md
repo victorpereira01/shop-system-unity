@@ -13,11 +13,7 @@ but had no clue about how to implement it, and after a lot of searching and stud
 was too much advanced for my level, but after many, many mistakes... I DID IT. I finally ended up with a pretty consistent system and I made it as simple as I could and I felt
 obligated to share it and try to help any programmer in the same situation as I was. 
 
-
-
-![objectTree](https://user-images.githubusercontent.com/55858659/94328276-7bbeef80-ff87-11ea-8d07-948e9567d08e.png)
-
-
+![sample](https://user-images.githubusercontent.com/55858659/94979362-8da91100-04f8-11eb-9149-d3d0c03b66ab.gif)
 
 ## ❓ More about me
 Meet my first project:
